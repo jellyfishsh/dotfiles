@@ -4,7 +4,7 @@ base: setup
 	
 
 setup:
-	sudo xbps-install -y stow xtools neovim tmux yazi
+	sudo xbps-install -y stow xtools neovim tmux yazi zsh
 	stow .
 
 

@@ -7,6 +7,7 @@ In addition to dotfiles, it also includes setup for the tools instead.
 * neovim (btw)
 * tmux
 * river
+* yazi
 ## Requirements
 * git
 

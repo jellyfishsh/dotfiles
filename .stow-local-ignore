@@ -1,6 +1,6 @@
 README.md
 .git
-scripts
+setup.sh
 Makefile
 .config/pulse
 

@@ -1,3 +1,3 @@
 require("config.bindings")
-require("plugins.lazy")
+require("config.lazy")
 require("config.options")

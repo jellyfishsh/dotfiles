@@ -2,3 +2,5 @@ README.md
 .git
 scripts
 Makefile
+.config/pulse
+

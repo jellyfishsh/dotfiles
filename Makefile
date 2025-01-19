@@ -4,7 +4,10 @@ base: setup
 	
 setup:
 	sudo xbps-install -y stow xtools neovim tmux yazi zsh autorandr
-	stow .
+	mkdir $HOME/.dotfiles
+	cp -r ./.* $HOME/.dotfiles/
+	cp -r ./* $HOME/.dotfiles/
+	stow $HOME/.dotfiles/
 
 graphical: graphical-xorg graphical-river
 

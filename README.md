@@ -8,8 +8,13 @@ In addition to dotfiles, it also includes setup for the tools instead.
 * tmux
 * river
 * yazi
+
 ## Requirements
 * git
+
+## Install
+1. Clone this repo
+2. 
 
 ## Needs
 * make xorg and bspwm setup 

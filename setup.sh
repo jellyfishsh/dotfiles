@@ -3,7 +3,8 @@ mkdir $HOME/.dotfiles
 cp ./.stow-local-ignore $HOME/.dotfiles/
 cp -r ./.* $HOME/.dotfiles/
 cp -r ./* $HOME/.dotfiles/
-stow $HOME/.dotfiles/
+stow $HOME/.dotfiles/.config
+stow $HOME/.dotfiles/scripts
 
 sudo xbps-install -y xorg picom feh bspwm sxhkd wezterm firefox autorandr
 sudo xbps-install -y river wezterm firefox 

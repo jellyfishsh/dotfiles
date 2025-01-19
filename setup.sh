@@ -13,4 +13,3 @@ mkdir --parents ~/projects/rust
 mkdir --parents ~/projects/haskell
 mkdir --parents ~/projects/java
 mkdir --parents ~/projects/javascript
-

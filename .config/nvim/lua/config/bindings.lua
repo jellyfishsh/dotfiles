@@ -8,5 +8,6 @@ vim.keymap.set("n", "<C-d>", "<C-d>zz")
 vim.keymap.set("n", "n", "nzz")
 vim.keymap.set("n", "N", "Nzz")
 vim.keymap.set("n", "<C-c>", "<nop>")
+vim.keymap.set("n", "<leader>y", "\"+y")
 
 

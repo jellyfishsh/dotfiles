@@ -14,8 +14,13 @@ cd $HOME/.dotfiles && stow . && cd -
 # Setup zsh
 chsh -s $(which zsh)
 
-sudo xbps-install -y font-firacode river wezterm firefox 
+sudo xbps-install -y font-firacode river wezterm firefox dbus elogind
 sudo xbps-install -y rustup ghc openjdk21 apache-maven gradle nodejs
+
+# Setup river
+sudo ln -s /etc/sv/dbus  /var/service
+sudo sv up dbus
+
 
 mkdir --parents ~/projects/rust
 mkdir --parents ~/projects/haskell

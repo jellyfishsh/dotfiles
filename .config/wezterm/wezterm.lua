@@ -4,9 +4,8 @@ local config = wezterm.config_builder()
 
 config.window_decorations = "RESIZE"
 config.enable_tab_bar = false
-
--- Setting the font and the colorscheme comes later
-
+config.font = wezterm.font("Fira Code Nerd Font")
+config.font_size = 18.0
 
 
 return config

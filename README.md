@@ -1,22 +1,24 @@
-# Bloomforge
+# Bloom
 
-Bloomforge (bforge) is a "dotfile setup" (moreso a reproducible environment) for my development environment on **Void Linux**.
-In addition to dotfiles, it also includes setup for the tools instead.
+Bloom is my dotfile setup and my configuration script for **Void Linux**.
+In addition to dotfiles, it also includes setup for the tools.
 
 ## Tools
-* neovim (btw)
-* tmux
-* river
-* yazi
+* neovim (text editor/IDE)
+* wezterm (terminal)
+* tmux (terminal manager)
+* river (window manager)
+* yazi (file manager)
+* eww (bar)
 
 ## Requirements
 * git
 
 ## Install
-1. Clone this repo
-2. 
+1. Clone this repo: `git clone https://github.com/jellyfishsh/dotfiles.git` or `git clone git@github.com:jellyfishsh/dotfiles.git`
+2. run `install.sh`
 
 ## Needs
-* make xorg and bspwm setup 
-* transition to river
 * make a setup for only dotfiles and not installing new packages
+* have a setup that does not require cloning at all, and instead uses `curl`
+* make a complete image file that includes these defaults when making a new system

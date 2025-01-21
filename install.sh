@@ -18,7 +18,7 @@ mkdir --parents ~/projects/javascript
 # Setup zsh
 chsh -s $(which zsh)
 
-sudo xbps-install -y font-firacode river wezterm firefox dbus elogind
+sudo xbps-install -y font-firacode river wezterm firefox dbus elogind pipewire wireplumber
 sudo xbps-install -y rustup ghc openjdk21 apache-maven gradle nodejs
 
 # Setup river

@@ -14,7 +14,7 @@ cd $HOME/.dotfiles && stow . && cd -
 # Setup zsh
 chsh -s $(which zsh)
 
-sudo xbps-install -y fira-code river wezterm firefox 
+sudo xbps-install -y font-firacode river wezterm firefox 
 sudo xbps-install -y rustup ghc openjdk21 apache-maven gradle nodejs
 
 mkdir --parents ~/projects/rust

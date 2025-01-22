@@ -2,3 +2,8 @@
 .config/dconf
 .config/pipewire
 .config/pulse
+.config/JetBrains
+.config/QtProject.conf
+.config/libreoffice
+.config/zoom.conf
+.config/zoomus.conf

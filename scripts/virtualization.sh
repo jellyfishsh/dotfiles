@@ -1,4 +1,5 @@
 xi libvirt virt-manager virt-manager-tools qemu
+sudo usermod -aG libvirt $USER
 
 sleep 3
 # Enable libvirtd

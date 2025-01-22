@@ -33,6 +33,7 @@ sudo sv up dbus
 mkdir -p "${XDG_CONFIG_HOME}/pipewire/pipewire.conf.d"
 ln -s /usr/share/examples/pipewire/20-pipewire-pulse.conf "${XDG_CONFIG_HOME}/pipewire/pipewire.conf.d/"
 
+curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 ###### EXTRA ######
 

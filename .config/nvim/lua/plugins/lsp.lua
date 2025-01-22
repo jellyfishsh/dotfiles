@@ -6,7 +6,7 @@ return {
     {
         "williamboman/mason-lspconfig.nvim",
         opts = {
-            ensure_installed = {"lua-ls", "clangd", "ts_ls", "pyright", "zls", "hls", "bashls"}
+            ensure_installed = {"lua_ls", "clangd", "ts_ls", "pyright", "zls", "hls", "bashls"}
         }
     },
     {
@@ -68,9 +68,6 @@ return {
             require("lspconfig").ts_ls.setup({
                 capabilities = capabilities
             })
-            require("lspconfig").eslint.setup({
-                capabilities = capabilities
-            })
             require("lspconfig").pyright.setup({
                 capabilities = capabilities
             })
@@ -78,6 +75,9 @@ return {
                 capabilities = capabilities
             })
             require("lspconfig").hls.setup({
+                capabilities = capabilities
+            })
+            require("lspconfig").bashls.setup({
                 capabilities = capabilities
             })
         end

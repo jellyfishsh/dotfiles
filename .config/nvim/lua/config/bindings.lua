@@ -9,5 +9,5 @@ vim.keymap.set("n", "n", "nzz")
 vim.keymap.set("n", "N", "Nzz")
 vim.keymap.set("n", "<C-c>", "<nop>")
 vim.keymap.set("n", "<leader>y", "\"+y")
-vim.keymap.set("n", "<leader>g", vim.cmd.Git)
-
+vim.keymap.set("n", "<leader>G", vim.cmd.Git)
+vim.keymap.set("n", "<leader>ga", vim.cmd.Git("add ."))

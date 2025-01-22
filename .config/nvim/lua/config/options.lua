@@ -6,4 +6,4 @@ vim.o.rnu = true
 vim.o.scr = 10
 vim.o.so = 10
 vim.o.wrap = false
-vim.o.colorscheme = kanagawa
+vim.cmd("colorscheme kanagawa-wave")

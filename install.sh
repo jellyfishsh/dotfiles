@@ -18,8 +18,10 @@ mkdir --parents ~/projects/javascript
 chsh -s $(which zsh)
 
 sudo xbps-install -y font-firacode river wezterm firefox dbus elogind pipewire wireplumber ffmpeg eww rofi
-sudo xbps-install -y stc syncthing
-sudo xbps-install -y rustup ghc openjdk21 apache-maven gradle nodejs
+sudo xbps-install -y rustup openjdk21 apache-maven gradle nodejs unzip
+sudo xbps-install -y binutils curl gcc gmp-devel glibc-devel libffi-devel make ncurses-devel ncurses-libtinfo-libs perl pkg-config tar xz
+sudo xbps-install -y lua-language-server
+sudo npm i -g typescript typescript-language-server
 
 # Setup river
 sudo ln -s /etc/sv/dbus  /var/service

@@ -6,8 +6,13 @@ return {
     {
         "williamboman/mason-lspconfig.nvim",
         opts = {
-            ensure_installed = {"lua_ls", "clangd", "ts_ls", "pyright", "zls", "hls", "bashls"}
+            ensure_installed = {"lua_ls", "clangd", "ts_ls", "pyright", "zls", "hls", "bashls", "docker_compose_language_service", "dockerls", }
         }
+    },
+    {
+        'mrcjkb/rustaceanvim',
+        version = '^5',
+        lazy = false
     },
     {
         "neovim/nvim-lspconfig",
@@ -15,10 +20,12 @@ return {
             require("lspconfig").lua_ls.setup({})
             require("lspconfig").clangd.setup({})
             require("lspconfig").ts_ls.setup({})
-            require("lspconfig").eslint.setup({})
             require("lspconfig").pyright.setup({})
             require("lspconfig").zls.setup({})
             require("lspconfig").hls.setup({})
+            require("lspconfig").bashls.setup({})
+            require("lspconfig").docker_compose_language_service.setup({})
+            require("lspconfig").dockerls.setup({})
         end
     },
     {
@@ -78,6 +85,12 @@ return {
                 capabilities = capabilities
             })
             require("lspconfig").bashls.setup({
+                capabilities = capabilities
+            })
+            require("lspconfig").docker_compose_language_service.setup({
+                capabilities = capabilities
+            })
+            require("lspconfig").dockerls.setup({
                 capabilities = capabilities
             })
         end

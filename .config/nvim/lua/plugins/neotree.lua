@@ -12,6 +12,17 @@ return {
                 visible = true,
                 hide_dotfiles = false,
                 hide_gitignored = false,
+            },
+            window = {
+                position = "current"
+            }
+        },
+        event_handlers = {
+            {
+                event = "file_open_requested",
+                handler = function ()
+                    vim.cmd("Neotree close")
+                end
             }
         }
     }

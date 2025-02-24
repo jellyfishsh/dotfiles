@@ -1,0 +1,10 @@
+[opener]
+edit = [
+    { run = "nvim $0", orphan = true, block = true }
+]
+
+[open]
+prepend_rules = [
+
+    {name = "*/", use = "edit"}
+]
